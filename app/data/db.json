@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": "cat_study",
+      "name": "Study",
+      "color": "#ff7f2a"
+    },
+    {
+      "id": "cat_work",
+      "name": "Work",
+      "color": "#0b82ff"
+    },
+    {
+      "id": "cat_personal",
+      "name": "Personal",
+      "color": "#b9c421"
+    },
+    {
+      "id": "3ce2246e-e66d-4a0e-9207-91a817cb6b1a",
+      "name": "Chilling",
+      "color": "#ff2974"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Example task",
+      "description": "This is an example",
+      "project": "Demo",
+      "priority": "High",
+      "owner": "User",
+      "category_id": "cat_study",
+      "date": null
+    },
+    {
+      "id": "a1c41a5f-43b6-4985-b5f3-751eb562eb49",
+      "title": "wdawd",
+      "description": "",
+      "project": "awdawd",
+      "priority": "Medium",
+      "owner": "awd",
+      "category_id": "cat_work",
+      "date": "2025-09-19"
+    },
+    {
+      "id": "d33c1771-2bc4-4b72-a577-4a9045ab7913",
+      "title": "awd",
+      "description": "asdd",
+      "project": "awd",
+      "priority": "Low",
+      "owner": "asdasd",
+      "category_id": "cat_work",
+      "date": "2025-09-20"
+    },
+    {
+      "id": "7acbaf18-89d5-4f64-aed4-9caf12cec217",
+      "title": "dfasdfs",
+      "description": "fsddf",
+      "project": "sdfdsf",
+      "priority": "High",
+      "owner": "sdf",
+      "category_id": null,
+      "date": "2025-09-13"
+    },
+    {
+      "id": "f82027ba-8011-4266-952c-0322652e2e6b",
+      "title": "фывыфв",
+      "description": "",
+      "project": "фывыфв",
+      "priority": "Low",
+      "owner": "вцййв",
+      "category_id": "3ce2246e-e66d-4a0e-9207-91a817cb6b1a",
+      "date": "2025-09-19"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+/* app/static/css/style.css (обновлённый) */
+*{box-sizing:border-box}
+body,html{height:100%;margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:#f2f4f8}
+.app{display:flex;height:100vh}
+.sidebar{width:260px;background:#2b2b2b;color:#fff;padding:16px;display:flex;flex-direction:column;gap:12px}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:36px;height:36px;border-radius:6px;background:#fff;color:#2b2b2b;display:flex;align-items:center;justify-content:center;font-weight:700}
+.btn{padding:8px 10px;border-radius:8px;border:0;cursor:pointer}
+.btn.primary{background:#f6c91f;color:#222}
+.btn.secondary{background:#fff;color:#222}
+.btn.danger{background:#ff5757;color:#fff}
+.filter-btn{background:#fff;border-radius:8px;padding:8px 12px;border:1px solid #ddd}
+.categories{display:flex;flex-direction:column;gap:8px;overflow:auto}
+.cat-item{display:flex;align-items:center;gap:8px;padding:8px;border-radius:8px;background:rgba(255,255,255,0.02);cursor:pointer;transition:background .12s}
+.cat-item.active{outline:2px solid rgba(255,255,255,0.06)}
+.cat-dot{width:12px;height:12px;border-radius:50%}
+.cat-name{flex:1}
+.cat-edit{background:transparent;border:0;color:inherit;cursor:pointer}
+.main{flex:1;padding:16px;display:flex;flex-direction:column;gap:12px}
+.topbar{display:flex;align-items:center;justify-content:space-between}
+.search-wrap{display:flex;align-items:center;gap:8px}
+.search input{padding:8px;border-radius:999px;border:0;width:320px}
+.view-buttons{display:flex;gap:8px}
+.view-btn{padding:8px;border-radius:8px;border:0;background:#111827;color:#fff;opacity:0.8}
+.view-btn.active{outline:3px solid rgba(0,0,0,0.06);opacity:1}
+.content{background:#fff;padding:16px;border-radius:10px;flex:1;overflow:auto}
+/* table */
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+.cat-badge{padding:6px 10px;border-radius:999px;color:#fff;font-size:12px;display:inline-block}
+.priority-badge{padding:6px 8px;border-radius:8px;color:#fff;font-weight:600;font-size:12px}
+.priority-high{background:#ff6b6b}
+.priority-medium{background:#ffb86b;color:#2b2b2b}
+.priority-low{background:#6bcf6b;color:#fff}
+/* cards */
+.tasks.cards-view{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.card{background:#fff;padding:12px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+/* calendar */
+.calendar-container{display:flex;flex-direction:column;gap:8px}
+.calendar-header{display:flex;justify-content:space-between;align-items:center}
+.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+.weekday{text-align:center;font-weight:700;color:#666}
+.day{background:#fff;border-radius:8px;min-height:80px;padding:8px;box-shadow:0 2px 6px rgba(0,0,0,0.04);position:relative}
+.day .day-num{font-weight:700}
+.event{display:block;padding:4px;border-radius:6px;margin-top:6px;color:#fff;font-size:12px;cursor:pointer}
+/* modal */
+.modal{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4)}
+.modal.hidden{display:none}
+.modal-body{background:#fff;padding:16px;border-radius:8px;width:420px;display:flex;flex-direction:column;gap:8px}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end}
+.hidden{display:none}
+
+/* hover visual: we'll set via inline style in JS to category color with alpha */
